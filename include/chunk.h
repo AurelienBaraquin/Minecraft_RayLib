@@ -6,5 +6,5 @@
 #define CHUNK_HEIGHT 256
 
 typedef struct {
-    Block blocks[CHUNK_SIZE][CHUNK_HEIGHT][CHUNK_SIZE];
+    unsigned short blocks[CHUNK_SIZE][CHUNK_HEIGHT][CHUNK_SIZE];
 } Chunk;
